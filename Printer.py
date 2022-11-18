@@ -12,6 +12,4 @@ for i in range(len(inp)):
         print(''.join(output))
         if j != inp[i]:
             output.pop()
-        else:
-            break
         sleep(0.002)
